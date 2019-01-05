@@ -5,7 +5,6 @@ def shiftRows():
     state=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
     tmp=[]
     for i in range (0,4):
-        flag=0
         for j in range (0, 4):
             count=4*i+5*j
             if (count<16):
